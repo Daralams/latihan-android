@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailVideo">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20dp"
+        android:text="Eksplisit Intent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <Button
+            android:id="@+id/btnlink_yt"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Button Menuju Youtube IT Satoe"/>
+
+        <Button
+            android:id="@+id/btnlink"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Button Menuju Github saya"/>
+
+        <Button
+            android:id="@+id/btn_tlpDialNumber"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Button Menuju Telepon Dial Number"/>
+
+        <Button
+            android:id="@+id/btn_link_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Button menuju Fragment Layout"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
